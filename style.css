@@ -275,3 +275,24 @@ footer {
     max-width: 100%;
   }
 }
+
+.btn-lang {
+  display: flex;
+  align-items: center;
+  background: #f3f4f6;
+  border: none;
+  border-radius: 20px;
+  padding: 0.3em 1em;
+  margin-left: 0.5em;
+  font: inherit;
+  cursor: pointer;
+  transition: background 0.2s;
+  box-shadow: none;
+}
+.btn-lang:hover {
+  background: #e0e7ef;
+}
+#lang-icon {
+  font-size: 1.2em;
+  margin-right: 0.4em;
+}
