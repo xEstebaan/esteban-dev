@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio de Esteban</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Esteban</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="btn-resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-img">
+        <img src="assets/avatar.svg" alt="Ilustración de Esteban" />
+      </div>
+      <div class="hero-content">
+        <h1>Hi, I'm Esteban, a <br><span>Software Developer</span></h1>
+        <p>I'm a passionate software developer with a focus on creating innovative and user-friendly applications. I enjoy working on challenging projects and collaborating with teams to build impactful solutions.</p>
+        <a href="#projects" class="btn-primary">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>I'm a software developer with a strong foundation in computer science principles and a passion for creating innovative solutions. I'm proficient in various programming languages and frameworks, and I'm always eager to learn new technologies and expand my skill set. I'm a collaborative team player with excellent communication skills, and I'm committed to delivering high-quality work that meets the needs of users and stakeholders.</p>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project-card">
+          <img src="assets/project1.png" alt="E-commerce Website" />
+          <h3>Project 1: E-commerce Website</h3>
+          <p>Developed a full-featured e-commerce website with user authentication, product catalog, shopping cart, and payment gateway integration.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/project2.png" alt="Mobile App for Fitness Tracking" />
+          <h3>Project 2: Mobile App for Fitness Tracking</h3>
+          <p>Created a mobile app for fitness tracking with features like activity logging, goal setting, and progress visualization.</p>
+        </div>
+        <div class="project-card">
+          <img src="assets/project3.png" alt="Data Analysis Dashboard" />
+          <h3>Project 3: Data Analysis Dashboard</h3>
+          <p>Designed and implemented a data analysis dashboard to visualize key metrics and trends from a large dataset.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>SQL</span>
+        <span>Git</span>
+        <span>HTML</span>
+        <span>CSS</span>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn-primary">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-social">
+      <a href="#" aria-label="LinkedIn"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
+      <a href="#" aria-label="GitHub"><img src="assets/github.svg" alt="GitHub"></a>
+    </div>
+    <p>© 2025 Esteban. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
