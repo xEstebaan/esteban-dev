@@ -30,5 +30,10 @@
   "contact.email.placeholder": "Tu Correo Electrónico",
   "contact.message": "Mensaje",
   "contact.message.placeholder": "Tu Mensaje",
-  "contact.send": "Enviar"
+  "contact.send": "Enviar",
+  "contact.title2": "¿Hablamos?",
+  "contact.desc2": "Si tienes alguna pregunta o quieres colaborar en un proyecto, no dudes en ponerte en contacto conmigo. Estoy abierto a nuevas oportunidades y desafíos.",
+  "contact.email2": "Correo electrónico",
+  "contact.whatsapp": "WhatsApp",
+  "contact.linkedin": "LinkedIn"
 } 

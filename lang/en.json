@@ -30,5 +30,10 @@
   "contact.email.placeholder": "Your Email",
   "contact.message": "Message",
   "contact.message.placeholder": "Your Message",
-  "contact.send": "Send"
+  "contact.send": "Send",
+  "contact.title2": "Let's talk?",
+  "contact.desc2": "If you have any questions or want to collaborate on a project, feel free to contact me. I am open to new opportunities and challenges.",
+  "contact.email2": "Email",
+  "contact.whatsapp": "WhatsApp",
+  "contact.linkedin": "LinkedIn"
 } 
