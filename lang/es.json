@@ -1,0 +1,34 @@
+{
+  "nav.about": "Sobre Mí",
+  "nav.projects": "Proyectos",
+  "nav.skills": "Habilidades",
+  "nav.contact": "Contacto",
+  "nav.home": "Inicio",
+  "nav.language": "Idioma",
+
+  "hero.title": "Hola, soy Esteban, un <br><span>Desarrollador de Software</span>",
+  "hero.desc": "Soy un desarrollador de software apasionado con enfoque en crear aplicaciones innovadoras y fáciles de usar. Disfruto trabajando en proyectos desafiantes y colaborando con equipos para construir soluciones impactantes.",
+  "hero.btn": "Ver Proyectos",
+
+  "about.title": "Sobre Mí",
+  "about.desc": "Estudiante de Análisis y Desarrollo de Software en el SENA, con enfoque en desarrollo web. Complementé mi formación con un bootcamp intensivo de programación en Talentotech (2024), donde profundicé en Python. Me considero una persona autodidacta, curiosa y comprometida con el aprendizaje constante. Manejo tecnologías como HTML, CSS, JavaScript y Python. Actualmente estoy en búsqueda de una oportunidad para realizar mi etapa práctica y aplicar mis conocimientos en un entorno real de desarrollo.",
+
+  "projects.title": "Proyectos",
+  "projects.1.title": "Sistema de Gestión de Inventario para Taller de Ornamentación – Flask",
+  "projects.1.desc": "Desarrollo de una aplicación web para gestionar materiales en un taller de ornamentación. El sistema permite registrar entradas y salidas de inventario, controlar stock, emitir reportes y visualizar alertas por bajo inventario. Implementado con Flask, SQLite y SQLAlchemy siguiendo el patrón MVC. Incluye autenticación de usuarios, control de roles (administrador y operador) y gráficos estadísticos con Chart.js.",
+  "projects.2.title": "Proyecto 2: Aplicación Móvil para Seguimiento de Ejercicios",
+  "projects.2.desc": "Creé una aplicación móvil para seguimiento de ejercicios con funciones como registro de actividades, establecimiento de metas y visualización de progreso.",
+  "projects.3.title": "Proyecto 3: Panel de Análisis de Datos",
+  "projects.3.desc": "Diseñé e implementé un panel de análisis de datos para visualizar métricas clave y tendencias de un conjunto grande de datos.",
+
+  "skills.title": "Habilidades",
+
+  "contact.title": "Contacto",
+  "contact.name": "Nombre",
+  "contact.name.placeholder": "Tu Nombre",
+  "contact.email": "Correo Electrónico",
+  "contact.email.placeholder": "Tu Correo Electrónico",
+  "contact.message": "Mensaje",
+  "contact.message.placeholder": "Tu Mensaje",
+  "contact.send": "Enviar"
+} 

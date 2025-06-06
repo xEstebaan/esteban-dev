@@ -14,14 +14,20 @@
     <nav class="navbar">
       <div class="logo">Esteban</div>
       <ul class="nav-links">
-        <li><a href="#about">Sobre Mí</a></li>
-        <li><a href="#projects">Proyectos</a></li>
-        <li><a href="#skills">Habilidades</a></li>
-        <li><a href="#contact">Contacto</a></li>
-        <li><a href="#" class="btn-resume">Inicio</a></li>
+        <li><a href="#about" data-i18n="nav.about">Sobre Mí</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Proyectos</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Habilidades</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contacto</a></li>
+        <li><a href="#" class="btn-resume" data-i18n="nav.home">Inicio</a></li>
+        <li>
+          <button id="lang-btn" class="btn-lang" type="button">
+            <span id="lang-icon" aria-hidden="true">🌐</span>
+            <span id="lang-label">ES</span>
+          </button>
+        </li>
       </ul>
     </nav>
-  </header>
+  </header> 
 
   <main>
     <section class="hero">
@@ -29,40 +35,40 @@
         <img src="assets/avatar.svg" alt="Ilustración de Esteban" />
       </div>
       <div class="hero-content">
-        <h1>Hola, soy Esteban, un <br><span>Desarrollador de Software</span></h1>
-        <p>Soy un desarrollador de software apasionado con enfoque en crear aplicaciones innovadoras y fáciles de usar. Disfruto trabajando en proyectos desafiantes y colaborando con equipos para construir soluciones impactantes.</p>
-        <a href="#projects" class="btn-primary">Ver Proyectos</a>
+        <h1 data-i18n="hero.title">Hola, soy Esteban, un <br><span>Desarrollador de Software</span></h1>
+        <p data-i18n="hero.desc">Soy un desarrollador de software apasionado con enfoque en crear aplicaciones innovadoras y fáciles de usar. Disfruto trabajando en proyectos desafiantes y colaborando con equipos para construir soluciones impactantes.</p>
+        <a href="#projects" class="btn-primary" data-i18n="hero.btn">Ver Proyectos</a>
       </div>
     </section>
 
     <section id="about" class="about">
-      <h2>Sobre Mí</h2>
-      <p>Estudiante de Análisis y Desarrollo de Software en el SENA, con enfoque en desarrollo web. Complementé mi formación con un bootcamp intensivo de programación en Talentotech (2024), donde profundicé en Python. Me considero una persona autodidacta, curiosa y comprometida con el aprendizaje constante. Manejo tecnologías como HTML, CSS, JavaScript y Python. Actualmente estoy en búsqueda de una oportunidad para realizar mi etapa práctica y aplicar mis conocimientos en un entorno real de desarrollo.</p>
+      <h2 data-i18n="about.title">Sobre Mí</h2>
+      <p data-i18n="about.desc">Estudiante de Análisis y Desarrollo de Software en el SENA, con enfoque en desarrollo web. Complementé mi formación con un bootcamp intensivo de programación en Talentotech (2024), donde profundicé en Python. Me considero una persona autodidacta, curiosa y comprometida con el aprendizaje constante. Manejo tecnologías como HTML, CSS, JavaScript y Python. Actualmente estoy en búsqueda de una oportunidad para realizar mi etapa práctica y aplicar mis conocimientos en un entorno real de desarrollo.</p>
     </section>
 
     <section id="projects" class="projects">
-      <h2>Proyectos</h2>
+      <h2 data-i18n="projects.title">Proyectos</h2>
       <div class="project-list">
         <div class="project-card">
           <img src="assets/project1.png" alt="Sitio Web de Inventario" />
-          <h3>Sistema de Gestión de Inventario para Taller de Ornamentación – Flask</h3>
-          <p>Desarrollo de una aplicación web para gestionar materiales en un taller de ornamentación. El sistema permite registrar entradas y salidas de inventario, controlar stock, emitir reportes y visualizar alertas por bajo inventario. Implementado con Flask, SQLite y SQLAlchemy siguiendo el patrón MVC. Incluye autenticación de usuarios, control de roles (administrador y operador) y gráficos estadísticos con Chart.js.</p>
+          <h3 data-i18n="projects.1.title">Sistema de Gestión de Inventario para Taller de Ornamentación – Flask</h3>
+          <p data-i18n="projects.1.desc">Desarrollo de una aplicación web para gestionar materiales en un taller de ornamentación. El sistema permite registrar entradas y salidas de inventario, controlar stock, emitir reportes y visualizar alertas por bajo inventario. Implementado con Flask, SQLite y SQLAlchemy siguiendo el patrón MVC. Incluye autenticación de usuarios, control de roles (administrador y operador) y gráficos estadísticos con Chart.js.</p>
         </div>
         <div class="project-card">
           <img src="assets/project2.png" alt="Aplicación Móvil para Seguimiento de Ejercicios" />
-          <h3>Proyecto 2: Aplicación Móvil para Seguimiento de Ejercicios</h3>
-          <p>Creé una aplicación móvil para seguimiento de ejercicios con funciones como registro de actividades, establecimiento de metas y visualización de progreso.</p>
+          <h3 data-i18n="projects.2.title">Proyecto 2: Aplicación Móvil para Seguimiento de Ejercicios</h3>
+          <p data-i18n="projects.2.desc">Creé una aplicación móvil para seguimiento de ejercicios con funciones como registro de actividades, establecimiento de metas y visualización de progreso.</p>
         </div>
         <div class="project-card">
           <img src="assets/project3.png" alt="Panel de Análisis de Datos" />
-          <h3>Proyecto 3: Panel de Análisis de Datos</h3>
-          <p>Diseñé e implementé un panel de análisis de datos para visualizar métricas clave y tendencias de un conjunto grande de datos.</p>
+          <h3 data-i18n="projects.3.title">Proyecto 3: Panel de Análisis de Datos</h3>
+          <p data-i18n="projects.3.desc">Diseñé e implementé un panel de análisis de datos para visualizar métricas clave y tendencias de un conjunto grande de datos.</p>
         </div>
       </div>
     </section>
 
     <section id="skills" class="skills">
-      <h2>Habilidades</h2>
+      <h2 data-i18n="skills.title">Habilidades</h2>
       <div class="skills-list">
         <span>Python</span>
         <span>JavaScript</span>
@@ -74,15 +80,15 @@
     </section>
 
     <section id="contact" class="contact">
-      <h2>Contacto</h2>
+      <h2 data-i18n="contact.title">Contacto</h2>
       <form id="contact-form">
-        <label for="name">Nombre</label>
-        <input type="text" id="name" name="name" placeholder="Tu Nombre" required>
-        <label for="email">Correo Electrónico</label>
-        <input type="email" id="email" name="email" placeholder="Tu Correo Electrónico" required>
-        <label for="message">Mensaje</label>
-        <textarea id="message" name="message" placeholder="Tu Mensaje" required></textarea>
-        <button type="submit" class="btn-primary">Enviar</button>
+        <label for="name" data-i18n="contact.name">Nombre</label>
+        <input type="text" id="name" name="name" placeholder="Tu Nombre" required data-i18n-placeholder="contact.name.placeholder">
+        <label for="email" data-i18n="contact.email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" placeholder="Tu Correo Electrónico" required data-i18n-placeholder="contact.email.placeholder">
+        <label for="message" data-i18n="contact.message">Mensaje</label>
+        <textarea id="message" name="message" placeholder="Tu Mensaje" required data-i18n-placeholder="contact.message.placeholder"></textarea>
+        <button type="submit" class="btn-primary" data-i18n="contact.send">Enviar</button>
       </form>
     </section>
   </main>

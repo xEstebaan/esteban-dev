@@ -1,0 +1,34 @@
+{
+  "nav.about": "About Me",
+  "nav.projects": "Projects",
+  "nav.skills": "Skills",
+  "nav.contact": "Contact",
+  "nav.home": "Home",
+  "nav.language": "Language",
+
+  "hero.title": "Hi, I'm Esteban, a <br><span>Software Developer</span>",
+  "hero.desc": "I'm a passionate software developer focused on creating innovative and user-friendly applications. I enjoy working on challenging projects and collaborating with teams to build impactful solutions.",
+  "hero.btn": "View Projects",
+
+  "about.title": "About Me",
+  "about.desc": "Software Analysis and Development student at SENA, focused on web development. I complemented my training with an intensive programming bootcamp at Talentotech (2024), where I deepened my knowledge in Python. I consider myself self-taught, curious, and committed to continuous learning. I work with technologies such as HTML, CSS, JavaScript, and Python. I am currently seeking an opportunity to do my internship and apply my knowledge in a real development environment.",
+
+  "projects.title": "Projects",
+  "projects.1.title": "Inventory Management System for Ornamental Workshop – Flask",
+  "projects.1.desc": "Development of a web application to manage materials in an ornamental workshop. The system allows you to record inventory entries and exits, control stock, generate reports, and view low inventory alerts. Implemented with Flask, SQLite, and SQLAlchemy following the MVC pattern. Includes user authentication, role control (admin and operator), and statistical charts with Chart.js.",
+  "projects.2.title": "Project 2: Mobile App for Fitness Tracking",
+  "projects.2.desc": "Created a mobile app for fitness tracking with features like activity logging, goal setting, and progress visualization.",
+  "projects.3.title": "Project 3: Data Analysis Dashboard",
+  "projects.3.desc": "Designed and implemented a data analysis dashboard to visualize key metrics and trends from a large dataset.",
+
+  "skills.title": "Skills",
+
+  "contact.title": "Contact",
+  "contact.name": "Name",
+  "contact.name.placeholder": "Your Name",
+  "contact.email": "Email",
+  "contact.email.placeholder": "Your Email",
+  "contact.message": "Message",
+  "contact.message.placeholder": "Your Message",
+  "contact.send": "Send"
+} 
